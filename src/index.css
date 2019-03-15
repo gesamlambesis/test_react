@@ -1,0 +1,17 @@
+.hasError {
+  animation-name: hasError;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hasError {
+  from {
+    color: white;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    color: red;
+  }
+}
